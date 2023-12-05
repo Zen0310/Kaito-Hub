@@ -2530,13 +2530,13 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Sau Vài ngày chìm nghỉm<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Sau VÃ i ngÃ y chÃ¬m nghá»‰m<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Thì Night Hub đã trở lại!!!!!<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>ThÃ¬ Night Hub Ä‘Ã£ trá»Ÿ láº¡i!!!!!<Color=/>"):Display()
     wait(.14)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>HÃ£y sá»­ dá»¥ng Fluxus Ä‘á»ƒ cÃ³ tráº£i nghiá»‡m tá»‘t!!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd Ä‘á»ƒ cáº­p nháº­t thÃ´ng tin má»›i nháº¥t nhÃ©<Color=/>"):Display()
     wait(.29)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Channel : LMNGAMING <Color=/>"):Display()
     wait(.36)
@@ -2546,21 +2546,21 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Night Hub", HidePremium = false, IntroText = "NightHub Library", SaveConfig = true, ConfigFolder = "Night Hub"})
 
 OrionLib:MakeNotification({
-	Name = "Night Hub",
+	Name = "Kaito Hub",
 	Content = "Choose Teams Bro?",
 	Image = "rbxassetid://4483345998",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
-	Name = "Night Hub",
-	Content = "Night Hub Not Skidder, Please don't says",
+	Name = "Kaito Hub",
+	Content = "Kaito Hub Not Skidder, Please don't says",
 	Image = "rbxassetid://4483345998",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "Night Hub",
+    Name = "Kaito Hub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -2569,85 +2569,85 @@ OrionLib:MakeNotification({
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "👋 Welcome",
+    Name = "ðŸ‘‹ Welcome",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "🏠 General",
+    Name = "ðŸ  General",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "🛠️ Setting",
+    Name = "ðŸ› ï¸ Setting",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "⚔️ Item & Quest",
+    Name = "âš”ï¸ Item & Quest",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "📊 Stats",
+    Name = "ðŸ“Š Stats",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "🔎 ESP",
+    Name = "ðŸ”Ž ESP",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "🎆 Raid",
+    Name = "ðŸŽ† Raid",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "🙆‍♂️ Local Players",
+    Name = "ðŸ™†â€â™‚ï¸ Local Players",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "🌍 World Teleport",
+    Name = "ðŸŒ World Teleport",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "📈 Status Sever",
+    Name = "ðŸ“ˆ Status Sever",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "🍍 Devil Fruit",
+    Name = "ðŸ Devil Fruit",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "☣️ Race V4",
+    Name = "â˜£ï¸ Race V4",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "🛒 Shop",
+    Name = "ðŸ›’ Shop",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "🔰 Misc",
+    Name = "ðŸ”° Misc",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2658,15 +2658,15 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By LMNGAMING")
+W:AddLabel("Script By Zen")
 
 local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Night Hub is back!")
+W:AddLabel("[+] Kaito Hub is back!")
 W:AddLabel("[+] I Not Skidder!")
-W:AddLabel("[+] I Will overcome Hirimii,MTriet Hub!!!")
+W:AddLabel("[+] I Fan Hirimii and Mtriet Hub")
 W:AddLabel("[+] Load Script Faster!")
 
 local Section = W:AddSection({
@@ -2762,16 +2762,16 @@ local locallv = W:AddLabel("Level")
         Name = "Status Hack"
     })
     
-    local LevelFarmFarm W:AddLabel("Kaitun : Đell có(sắp có)")
+    local LevelFarmFarm W:AddLabel("Kaitun : Äell cÃ³(sáº¯p cÃ³)")
     W:AddLabel("Config Save : Comming Son...")
-    local Farmfast = W:AddLabel("Farm Fast : ❌")
-    local Bypass = W:AddLabel("Bypass ❌")
+    local Farmfast = W:AddLabel("Farm Fast : âŒ")
+    local Bypass = W:AddLabel("Bypass âŒ")
     local Section = W:AddSection({
         Name = "World"
     })
-    local WolrdSet3 = W:AddLabel("World 1 ❌ ")
-    local WolrdSet = W:AddLabel("Wolrd : 2 ❌")
-    local WolrdSet1 = W:AddLabel("Wolrd : 3 ❌")
+    local WolrdSet3 = W:AddLabel("World 1 âŒ ")
+    local WolrdSet = W:AddLabel("Wolrd : 2 âŒ")
+    local WolrdSet1 = W:AddLabel("Wolrd : 3 âŒ")
     local Section = W:AddSection({
         Name = "Stats Point"
     })
@@ -2784,51 +2784,51 @@ local locallv = W:AddLabel("Level")
     local Section = W:AddSection({
         Name = "Melee Check"
     })
-    local  Superhuman =             W:AddLabel("❌ : Superhuman")
-    local  DeathStep =              W:AddLabel("❌ : Sharkman Karate")
-    local  ElectricClaw =             W:AddLabel("❌ : Electric Claw")
-    local  DragonTalon =             W:AddLabel("❌ : Dragon Talon")
-    local   GodHuman =            W:AddLabel("❌ : God Human")
+    local  Superhuman =             W:AddLabel("âŒ : Superhuman")
+    local  DeathStep =              W:AddLabel("âŒ : Sharkman Karate")
+    local  ElectricClaw =             W:AddLabel("âŒ : Electric Claw")
+    local  DragonTalon =             W:AddLabel("âŒ : Dragon Talon")
+    local   GodHuman =            W:AddLabel("âŒ : God Human")
     local Section = W:AddSection({
         Name = "Sword Legend Check"
     })
-    local   Shisui =            W:AddLabel("❌ : Shisui")
-    local     Saddi =           W:AddLabel("❌ : Saddi")
-    local      Wando =         W:AddLabel("❌ : Wando")
-    local     TrueTripleKatana          W:AddLabel("❌ : True Triple Katana")
+    local   Shisui =            W:AddLabel("âŒ : Shisui")
+    local     Saddi =           W:AddLabel("âŒ : Saddi")
+    local      Wando =         W:AddLabel("âŒ : Wando")
+    local     TrueTripleKatana          W:AddLabel("âŒ : True Triple Katana")
     local Section = W:AddSection({
         Name = "World 1 Weapon"
     })
-    local   Saber  = W:AddLabel("❌ : Saber")
+    local   Saber  = W:AddLabel("âŒ : Saber")
     local Section = W:AddSection({
         Name = "World 2 Weapon"
     })
-    local       Rengoku =         W:AddLabel("❌ : Rengoku")
-    local    MidnightBlade =            W:AddLabel("❌ : Midnight Blade")
-    local       DragonTrident =        W:AddLabel("❌ : DragonTrident")
+    local       Rengoku =         W:AddLabel("âŒ : Rengoku")
+    local    MidnightBlade =            W:AddLabel("âŒ : Midnight Blade")
+    local       DragonTrident =        W:AddLabel("âŒ : DragonTrident")
     local Section = W:AddSection({
         Name = "World 3 Weapon"
     })
-    local     Yama =          W:AddLabel("❌ : Yama")
-    local        BuddySword =        W:AddLabel("❌ : Buddy Sword")
-    local       Canvander =        W:AddLabel("❌ : Canvander")
-    local      TwinHooks =         W:AddLabel("❌ : Twin Hooks")
-    local     SpikeyTrident =          W:AddLabel("❌ : Spikey Trident")
-    local   HallowScythe =            W:AddLabel("❌ : Hallow Scythe")
-    local     DarkDagger =           W:AddLabel("❌ : Dark Dagger")
-    local     Tushita          W:AddLabel("❌ : Tushita")
+    local     Yama =          W:AddLabel("âŒ : Yama")
+    local        BuddySword =        W:AddLabel("âŒ : Buddy Sword")
+    local       Canvander =        W:AddLabel("âŒ : Canvander")
+    local      TwinHooks =         W:AddLabel("âŒ : Twin Hooks")
+    local     SpikeyTrident =          W:AddLabel("âŒ : Spikey Trident")
+    local   HallowScythe =            W:AddLabel("âŒ : Hallow Scythe")
+    local     DarkDagger =           W:AddLabel("âŒ : Dark Dagger")
+    local     Tushita          W:AddLabel("âŒ : Tushita")
     local Section = W:AddSection({
         Name = "Gun"
     })
-    local   Kabucha =            W:AddLabel("❌ : Kabucha")
-    local   AcidumRifle =             W:AddLabel("❌ : Acidum Rifle")
-    local    BizarreRifle =            W:AddLabel("❌ : Bizarre Rifle")
+    local   Kabucha =            W:AddLabel("âŒ : Kabucha")
+    local   AcidumRifle =             W:AddLabel("âŒ : Acidum Rifle")
+    local    BizarreRifle =            W:AddLabel("âŒ : Bizarre Rifle")
     local Section = W:AddSection({
         Name = "Quest"
     })
-    local   BartiloQuest =            W:AddLabel("❌ : Bartilo Quest")
-    local   DonSwanQuest =             W:AddLabel("❌ : Don Swan Quest")
-    local    KillDonSwan =           W:AddLabel("❌ : Kill Don Swan")
+    local   BartiloQuest =            W:AddLabel("âŒ : Bartilo Quest")
+    local   DonSwanQuest =             W:AddLabel("âŒ : Don Swan Quest")
+    local    KillDonSwan =           W:AddLabel("âŒ : Kill Don Swan")
 
 
 local Section = W:AddSection({
@@ -2836,11 +2836,11 @@ local Section = W:AddSection({
 })
 
 
-local Dark_Coat = W:AddLabel("❌: Dark Coat")
-local Ghoul_Mask = W:AddLabel("❌: Ghoul Mask")
-local Swan_Glass = W:AddLabel("❌: Swan Glass")
-local Pale_Scarf = W:AddLabel("❌: Pale Scarf")
-local Valkyrie_Helm = W:AddLabel("❌: Valkyrie Helm")
+local Dark_Coat = W:AddLabel("âŒ: Dark Coat")
+local Ghoul_Mask = W:AddLabel("âŒ: Ghoul Mask")
+local Swan_Glass = W:AddLabel("âŒ: Swan Glass")
+local Pale_Scarf = W:AddLabel("âŒ: Pale Scarf")
+local Valkyrie_Helm = W:AddLabel("âŒ: Valkyrie Helm")
 
 
 spawn(function()
@@ -2848,19 +2848,19 @@ spawn(function()
         pcall(function()
             for i,v in pairs(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("getInventoryWeapons")) do
                 if v.Name == "Saber" then
-                    Dark_Coat:Set("✅: Dark Coat")
+                    Dark_Coat:Set("âœ…: Dark Coat")
                 end
                 if v.Name == "Ghoul Mask" then
-                    Ghoul_Mask:Set("✅: Ghoul Mask")
+                    Ghoul_Mask:Set("âœ…: Ghoul Mask")
                 end
                 if v.Name == "Swan Glasses" then
-                    Swan_Glass:Set("✅: Swan Glass")
+                    Swan_Glass:Set("âœ…: Swan Glass")
                 end
                 if v.Name == "Pale Scarf" then
-                    Pale_Scarf:Set("✅: Pale Scarf")
+                    Pale_Scarf:Set("âœ…: Pale Scarf")
                 end
                 if v.Name == "Valkyrie Helmet" then
-                    Valkyrie_Helm:Set("✅: Valkyrie Helmet")
+                    Valkyrie_Helm:Set("âœ…: Valkyrie Helmet")
                 end
             end
         end)
@@ -3355,10 +3355,10 @@ local Section = M:AddSection({
     Name = "Kaitun Met Vaiz"
 })
 
-M:AddParagraph("Kaitun/Cantay","Kaitun bản này đell khác gì bản kia.")
+M:AddParagraph("Kaitun/Cantay","Kaitun báº£n nÃ y Ä‘ell khÃ¡c gÃ¬ báº£n kia.")
 
 M:AddToggle({
-    Name = "Kaitun[Ko có kill players]",
+    Name = "Kaitun[Ko cÃ³ kill players]",
     Default = false,
     Flag = "Kaitun",
     Save = true,
@@ -3663,7 +3663,7 @@ local Section = M:AddSection({
     Name = "Boss"
 })
 
-M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
+M:AddParagraph("Auto Farm Boss :","Chá» Update thÃ´i ae!!!")
 
     local Section = M:AddSection({
         Name = "Observation Haki"
@@ -3833,9 +3833,9 @@ spawn(function()
     while wait() do
         pcall(function()
             if game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") then
-                SaberBoss:Set("Boss Saber : ✅ Spawn")
+                SaberBoss:Set("Boss Saber : âœ… Spawn")
             else
-                SaberBoss:Set("Boss Saber : ❌ Not Spawn")
+                SaberBoss:Set("Boss Saber : âŒ Not Spawn")
             end
         end)
     end
@@ -3872,9 +3872,9 @@ spawn(function()
     while wait() do
         pcall(function()
             if game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") then
-                PoleBoss:Set("Boss Thunder : ✅ Spawn")
+                PoleBoss:Set("Boss Thunder : âœ… Spawn")
             else
-                PoleBoss:Set("Boss Thunder : ❌ Not Spawn")
+                PoleBoss:Set("Boss Thunder : âŒ Not Spawn")
             end
         end)
     end
@@ -4145,7 +4145,7 @@ IQ:AddToggle({
             Name = "ArenaTrainer"
         })
 
-        IQ:AddLabel("Cho thằng nào đell hiểu thì đây là tự động đánh hình nộm")
+        IQ:AddLabel("Cho tháº±ng nÃ o Ä‘ell hiá»ƒu thÃ¬ Ä‘Ã¢y lÃ  tá»± Ä‘á»™ng Ä‘Ã¡nh hÃ¬nh ná»™m")
 
         IQ:AddToggle({
             Name = "Automatically hit the dummy",
@@ -4279,13 +4279,13 @@ spawn(function()
 end)
 
 local Section = IQ:AddSection({
-        Name = "Mirrage Menu"
+        Name = "Mirage Menu"
     })
 
 IQ:AddToggle({
-    Name = "Auto Summon and Find Mirrage Island",
+    Name = "Auto Summon and Find Mirage Island",
     Default = false,
-    Flag = "Auto Mirrage",
+    Flag = "Auto Mirage",
     Save = true,
     Callback = function(Value)
         _G.dao = Value
@@ -4357,9 +4357,9 @@ IQ:AddToggle({
 }) 
     
 IQ:AddToggle({
-    Name = "Find Mirrage[HOP]",
+    Name = "Find Mirage[HOP]",
     Default = false,
-    Flag = "Auto Mirrage2",
+    Flag = "Auto Mirage2",
     Save = true,
     Callback = function(Value)
         _G.Hop =  Value
@@ -4960,7 +4960,7 @@ LC:AddDropdown({
     "Cake Island",
     "Cocoa Island",
     "Tiki Outpost New",
-    "Candy Island New⛄"},
+    "Candy Island Newâ›„"},
     Flag = "Select Island",
     Save = true,
     Callback = function(Value)
@@ -5068,7 +5068,7 @@ LC:AddToggle({
                     topos(CFrame.new(-1884.7747802734375, 19.327526092529297, -11666.8974609375))
                 elseif _G.SelectIsland == "Cocoa Island" then
                     topos(CFrame.new(87.94276428222656, 73.55451202392578, -12319.46484375))
-                elseif _G.SelectIsland == "Candy Island New⛄" then
+                elseif _G.SelectIsland == "Candy Island Newâ›„" then
                     topos(CFrame.new(-1014.4241943359375, 149.11068725585938, -14555.962890625))
                 elseif _G.SelectIsland == "Tiki Outpost New" then
                     topos(CFrame.new(-16101.1885, 12.8422165, 380.942291, 0.194113985, 1.39194061e-08, -0.980978966, -9.82904691e-09, 1, 1.22443504e-08, 0.980978966, 7.26528837e-09, 0.194113985))
@@ -5456,9 +5456,9 @@ local Elite_Hunter_Status = SV:AddLabel("Only Third Sea")
             while wait() do
                 pcall(function()
                     if game:GetService("ReplicatedStorage"):FindFirstChild("Diablo") or game:GetService("ReplicatedStorage"):FindFirstChild("Deandre") or game:GetService("ReplicatedStorage"):FindFirstChild("Urban") or game:GetService("Workspace").Enemies:FindFirstChild("Diablo") or game:GetService("Workspace").Enemies:FindFirstChild("Deandre") or game:GetService("Workspace").Enemies:FindFirstChild("Urban") then
-                        Elite_Hunter_Status:Set("Elite : ✅ Spawn")	
+                        Elite_Hunter_Status:Set("Elite : âœ… Spawn")	
                     else
-                        Elite_Hunter_Status:Set("Elite : ❌ not Spawn")	
+                        Elite_Hunter_Status:Set("Elite : âŒ not Spawn")	
                     end
                 end)
             end
@@ -5487,9 +5487,9 @@ local Elite_Hunter_Status = SV:AddLabel("Only Third Sea")
             pcall(function()
                 while wait() do
         if game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island') then
-        Mirragecheck:Set('Mirrage: ✅')
+        Mirragecheck:Set('Mirrage: âœ…')
         else
-          Mirragecheck:Set('Mirrage: ❌ ' )end
+          Mirragecheck:Set('Mirrage: âŒ ' )end
                 end
             end)
     end)
@@ -5513,7 +5513,7 @@ spawn(function()
             elseif string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86 then
                 MobKilled:Set("Defeat : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,39))
             else
-                MobKilled:Set("Dough King V1 : ✅")
+                MobKilled:Set("Dough King V1 : âœ…")
             end
         end)
     end
@@ -5715,7 +5715,7 @@ D:AddToggle({
 function DropFruit()
     pcall(function()
         game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Position = UDim2.new(10.100, 0, 0.100, 0) -- HideUi
-        game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true -- เปิดไว้ถึงจะเช็คได้
+        game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true -- à¹€à¸›à¸´à¸”à¹„à¸§à¹‰à¸–à¸¶à¸‡à¸ˆà¸°à¹€à¸Šà¹‡à¸„à¹„à¸”à¹‰
         local invenfruit = game.Players.LocalPlayer.PlayerGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame
         wait(.3)
         for i,v in pairs(invenfruit:GetChildren()) do
@@ -6492,7 +6492,7 @@ spawn(function()
     while wait(.1) do
         if LockLevel then
             if game.Players.localPlayer.Data.Level.Value >= LockLevelValue then
-                game.Players.localPlayer:Kick("Lock Level : Done[Đúng Level mày nói rồi!]")
+                game.Players.localPlayer:Kick("Lock Level : Done[ÄÃºng Level mÃ y nÃ³i rá»“i!]")
             end
         end
     end
@@ -8386,7 +8386,7 @@ pcall(function()
                 })
                 OrionLib:MakeNotification({
                     Name = "Night Hub(Noitification)",
-                    Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
+                    Content = "[VN] : LÃ m Æ¡n há»§y nhiá»‡m vá»¥ farrm level(náº¿u cÃ³)",
                     Image = "rbxassetid://4483345998",
                     Time = 9
                 })
@@ -8864,7 +8864,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "KAITO HUB BOT",
                             Content = "Not Have Superhuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8877,7 +8877,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "KAITO HUB BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8890,7 +8890,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "KAITO HUB BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8903,7 +8903,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "KAITO HUB BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8914,7 +8914,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "NIGHT HUB BOT",
+                                    Name = "KAITO HUB BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8926,7 +8926,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "KAITO HUB BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -11325,7 +11325,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "Kaito Hub",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11333,7 +11333,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "Kaito Hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11341,7 +11341,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "Kaito Hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11349,7 +11349,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Night Hub",
+                    Name = "Kaito Hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11362,7 +11362,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Night Hub",
+        Name = "Kaito Hub",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://4483345998",
         Time = 5
@@ -11395,7 +11395,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Night Hub",
+    Name = "Kaito Hub",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://4483345998",
     Time = 5
